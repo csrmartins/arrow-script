@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-color: light-grey;
+}
+
+.mainRow {
+  column-count: 2;
+  column-span: all;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightColumn{
+  margin: 0 0 0 30px;
+}
+
+.commandBox {
+  margin: 10px;
+  width: 200px;
+  column-count: 4;
+  column-gap: 1px;
+  column-width: 33%;
+}
+
+.commandBox button {
+  width: auto;
+  margin: 0 0 5px 0;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.commandBox button img{
+  margin: 0;
+  height: 30px;
+  width: 30px;
+  padding: 0;
+  /* height: 30px;
+  width: 30px; */
+  /* padding: 15px; */
+}
+
+#btnRun {
+  color: black;
+  border-color: black;
+  border-radius: 5px;
+  margin: 10px;
+  width: auto;
+  height: auto;
+  font-size: 24px;
+  line-height: 42px;
+  box-sizing: border-box;
+}
+
+#btnRun img{
+  border: 0;
+  height: 40px;
+  width: 40px;
+  line-height: 42px;
+  vertical-align: middle;
+}
+
+.canvas {
+  position: relative;
+  background-color: #E4E3E3;
+  border-radius: 10px;
+  width: 650px;
+  height: 650px;
+}
+
+#dog {
+  height: 96px;
+  width: 144px;
+  }
+
+#endPoint {
+  height: 80px;
+  width: 80px;
+}
+
+#pathWay1 {
+  background-color: grey;
+  position: absolute;
+  top: 80px;
+  left: 30px;
+  width: 144px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+#pathWay2 {
+  background-color: grey;
+  position: absolute;
+  top: 80px;
+  left: 164px;
+  width: 10px;
+  height: 144px;
+  border-radius: 5px;
+}
+
+#pathWay3 {
+  background-color: grey;
+  position: absolute;
+  top: 214px;
+  left: 164px;
+  width: 144px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+#pathWay4 {
+  background-color: grey;
+  position: absolute;
+  top: 214px;
+  left: 298px;
+  width: 10px;
+  height: 144px;
+  border-radius: 5px;
+}
+
+#pathWay5 {
+  background-color: grey;
+  position: absolute;
+  top: 348px;
+  left: 164px;
+  width: 144px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.programBox {
+  margin: 0;
+  padding: 0;
+  background-color: #E4E3E3;
+  border-radius: 10px;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+#programList{
+  margin: 0;
+  padding: 0;
+}
+
+#programList img{
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  width: 30px;
+}
+
+
+.mainRow {
+  float: left;
+  width: 50%;
+}

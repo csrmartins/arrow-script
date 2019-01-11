@@ -1,0 +1,61 @@
+
+
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+body{
+  text-align: center;
+  color: #544258;
+  background-color: #E3E3E3;
+}
+
+h1{
+  color: #3EAB6B;
+}
+
+h2{
+  color: #F5832B;
+}
+
+img{
+  margin-top: 20px;
+  height: auto;
+  width: 100px;
+}
+
+.mainContent {
+  margin-top: 30px;
+  column-count: 2;
+  column-gap: 20px;
+}
+
+.about {
+  margi
+}
+
+.learnMore {
+  margin-right: 150px;
+}
+
+.play {
+  font-size: 15px;
+  background-color: #FFB141;
+  color: black;
+  border:#F5832B;
+  border-radius: 15px;
+  height: 50px;
+  width: 200px;
+  margin-top: 40px;
+}
+
+.btnLearnMore {
+  font-size: 15px;
+  background-color: #FFB141;
+  color: black;
+  border:#F5832B;
+  border-radius: 15px;
+  height: 50px;
+  width: 200px;
+  margin-top: 40px;
+}

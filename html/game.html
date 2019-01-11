@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/game.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.2/velocity.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.2/velocity.ui.js"></script>
+    <title>ArrowScript</title>
+  </head>
+  <body>
+    <h1>ArrowScript</h1>
+    <h3>Level: 1</h3>
+    <h3 id="scoreBoard">Score:</h3>
+    <div class="mainRow">
+      <div class="leftColumn">
+        <div class="canvas">
+          <img id="dog" src="../images/dog-left.gif" alt="dog">
+          <img id="endPoint" src="../images/dog-house.png" alt="dog-house">
+          <div id="pathWay1"></div>
+          <div id="pathWay2"></div>
+          <div id="pathWay3"></div>
+          <div id="pathWay4"></div>
+          <div id="pathWay5"></div>
+
+        </div>
+      </div>
+      <div class="rightColumn">
+        <h3>Your Program:</h3>
+        <div class="programBox">
+          <ul id="programList">
+          </ul>
+        </div>
+        <button type="button" id="btnClear">Clear</button>
+        <button type="button" id="btnBackSpace">Back Space</button>
+
+        <!-- <div id="btnRun">
+           Run
+           <img src="../images/play-button.png" alt="Play">
+        </div> -->
+        <button type="button" id="btnRun">Run <img src="../images/play-button.png" alt="Play"></button>
+        <h3>Commands:</h3>
+        <div class="commandBox">
+          <button type="button" id="btnUp"><img src="../images/arrow-commands/arrow-up.png" alt="up"></button>
+          <button type="button" id="btnUpLeft"><img src="../images/arrow-commands/arrow-up-left.png" alt="up left"></button>
+          <button type="button" id="btnLeftUp"><img src="../images/arrow-commands/arrow-left-up.png" alt="left up"></button>
+          <button type="button" id="btnDown"><img src="../images/arrow-commands/arrow-down.png" alt="down"></button>
+          <button type="button" id="btnUpRight"><img src="../images/arrow-commands/arrow-up-right.png" alt="up right"></button>
+          <button type="button" id="btnRightUp"><img src="../images/arrow-commands/arrow-right-up.png" alt="right up"></button>
+          <button type="button" id="btnLeft"><img src="../images/arrow-commands/arrow-left.png" alt="left"></button>
+          <button type="button" id="btnDownLeft"><img src="../images/arrow-commands/arrow-down-left.png" alt="down left"></button>
+          <button type="button" id="btnLeftDown"><img src="../images/arrow-commands/arrow-left-down.png" alt="left down"></button>
+          <button type="button" id="btnRight"><img src="../images/arrow-commands/arrow-right.png" alt="right"></button>
+          <button type="button" id="btnDownRight"><img src="../images/arrow-commands/arrow-down-right.png" alt="down right"></button>
+          <button type="button" id="btnRightDown"><img src="../images/arrow-commands/arrow-right-down.png" alt="right down"></button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <script type="text/javascript" src="../js/app.js"></script>
+  </body>
+</html>
