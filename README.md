@@ -4,19 +4,19 @@ ArrowScript is a game designed for young kids to learn logic by using Arrows to 
 
 ## Wireframes
 ![Welcome Screen](/wireframes/welcome-screen.png)
-Format: ![Alt Text](url)
+
 
 ![How to Play](/wireframes/how-to-play-screen.png)
-Format: ![Alt Text](url)
+
 
 ![Game Start](/wireframes/game-start-screen.png)
-Format: ![Alt Text](url)
+
 
 ![User Input](/wireframes/user-input.png)
-Format: ![Alt Text](url)
 
-![Program Executed](/wireframes/program-Executed.png)
-Format: ![Alt Text](url)
+
+![Program Executed](/wireframes/program-executed.png)
+
 
 
 ## User Stories
@@ -35,8 +35,8 @@ A user should be able to:
 * By Clicking at the Play Button, the user will be redirected to the Game Start screen and should be able to see:
   *   A box with:
   *   A character at a Start Point
-    *     A path way
-    *     An end point
+    *   A path way
+    *   An end point
     *   A box with all the available ArrowScript commands
     *   The level number
     *   The score number
